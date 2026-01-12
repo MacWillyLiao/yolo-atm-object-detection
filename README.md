@@ -15,17 +15,17 @@ YOLOv8-based object detection for ATM
 - 模型架構：YOLOv8s、YOLOv8m
 - 版本：Python 3
 - 訓練環境：Google Colab（T4 GPU）
-- 使用模型與參數
-  A: YOLOv8s, epoch 50, batch 16
-  B: YOLOv8s, epoch 80, batch 16
-  C: YOLOv8s, epoch 200, batch 16
-  D: YOLOv8m, epoch 200, batch 16
-  E: YOLOv8m, epoch 200, batch 8
+- 使用模型與參數  
+  A: YOLOv8s, epoch 50, batch 16  
+  B: YOLOv8s, epoch 80, batch 16  
+  C: YOLOv8s, epoch 200, batch 16  
+  D: YOLOv8m, epoch 200, batch 16  
+  E: YOLOv8m, epoch 200, batch 8  
 
 ### 訓練結果
-A: precision 0.756, recall 0.788, mAP50 0.842, mAP50-95 0.655, fitness 0.674
-B: precision 0.844, recall 0.823, mAP50 0.848, mAP50-95 0.654, fitness 0.674
-C: precision 0.802, recall 0.848, mAP50 0.890, mAP50-95 0.665, fitness 0.687
-D: precision 0.877, recall 0.865, mAP50 0.898, mAP50-95 0.704, fitness 0.723
-E: precision 0.794, recall 0.819, mAP50 0.873, mAP50-95 0.691, fitness 0.709
+A: precision 0.756, recall 0.788, mAP50 0.842, mAP50-95 0.655, fitness 0.674  
+B: precision 0.844, recall 0.823, mAP50 0.848, mAP50-95 0.654, fitness 0.674  
+C: precision 0.802, recall 0.848, mAP50 0.890, mAP50-95 0.665, fitness 0.687  
+D: precision 0.877, recall 0.865, mAP50 0.898, mAP50-95 0.704, fitness 0.723  
+E: precision 0.794, recall 0.819, mAP50 0.873, mAP50-95 0.691, fitness 0.709  
 * best: D
