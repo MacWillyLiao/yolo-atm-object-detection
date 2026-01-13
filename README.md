@@ -4,7 +4,7 @@ YOLOv8-based object detection for ATM
 ### 訓練步驟
 1. 整理資料集：從 Google 照片抓 ATM 相關圖片
 2. 處理資料集：用 Roboflow 標記資料集，並以 8：2 切分訓練集和測試集，並生成相關檔案（labels、.yaml）
-3. 模型訓練：使用訓練集訓練後用測試集查看辨識結果
+3. 模型訓練：使用訓練集訓練後用測試集查看訓練結果
 
 ### 資料集
 總共 100 張（100 images）  
