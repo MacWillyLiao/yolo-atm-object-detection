@@ -16,11 +16,11 @@ YOLOv8-based object detection for ATM
 - 版本：Python 3
 - 訓練環境：Google Colab（T4 GPU）
 - 使用模型與參數  
-  case A: YOLOv8s, epoch 50, batch 16  
-  case B: YOLOv8s, epoch 80, batch 16  
-  case C: YOLOv8s, epoch 200, batch 16  
-  case D: YOLOv8m, epoch 200, batch 16  
-  case E: YOLOv8m, epoch 200, batch 8  
+  **case A**: YOLOv8s, epoch 50, batch 16  
+  **case B**: YOLOv8s, epoch 80, batch 16  
+  **case C**: YOLOv8s, epoch 200, batch 16  
+  **case D**: YOLOv8m, epoch 200, batch 16  
+  **case E**: YOLOv8m, epoch 200, batch 8  
 
 ### 訓練結果
 | case | precision | recall | mAP50 | mAP50-95 | fitness |
